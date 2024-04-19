@@ -1,5 +1,6 @@
 # Batch-automation---HTML-CSS-JS
 a little batch script for making templates for the HTML + CSS + JS setup
+(with IIFE and dark mode to speed things up)
 
 ## HOWTO USE:
 ### 1. Make batch folder in C:\Users%AppData%\Code\User, and jsApp.bat there
