@@ -39,9 +39,9 @@ echo })(); >> js\scripts.js
 pushd ..
 
 :: Open the files in VS Code
-start "" "C:\Users\YourUsername\AppData\Local\Programs\Microsoft VS Code\Code.exe" "%folderName%\index.html"
-start "" "C:\Users\YourUsername\AppData\Local\Programs\Microsoft VS Code\Code.exe" "%folderName%\css\styles.css"
-start "" "C:\Users\YourUsername\AppData\Local\Programs\Microsoft VS Code\Code.exe" "%folderName%\js\scripts.js"
+start "" "%LocalAppData%\Programs\Microsoft VS Code\Code.exe" "%folderName%\index.html"
+start "" "%LocalAppData%\Programs\Microsoft VS Code\Code.exe" "%folderName%\css\styles.css"
+start "" "%LocalAppData%\Programs\Microsoft VS Code\Code.exe" "%folderName%\js\scripts.js"
 
 :: Change back to the original directory
 popd
