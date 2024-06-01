@@ -12,7 +12,7 @@ cd C:\Windows\System32
 mklink jsApp.bat "C:\Users\%AppData%\Roaming\Code\User\batch\jsApp.bat"
 ```
 ### 3. Open the internal Terminal in VS-Code
- - type `jsApp.bat hello-canvas-full` from within the folder you want to create the structure in
+ - type `jsApp.bat hello-JS-App` (replace _hello-JS-App_ with your desired name) from within the folder you want to create the structure in
  - the files should be created and opened including all templates 😉
 
 ## HOWTO USE - Standard setup for **reactApp**:
@@ -25,7 +25,7 @@ cd C:\Windows\System32
 mklink reactApp.bat "C:\Users\%AppData%\Roaming\Code\User\batch\reactApp.bat"
 ```
 ### 4. Open the internal Terminal in VS-Code
- - type `reactApp.bat hello-react-app` from within the folder you want to create the structure in
+ - type `reactApp.bat hello-React-App` (replace _hello-React-App_ with your desired name) from within the folder you want to create the structure in
  - the files should be created and opened including all templates 😉
 
 ## Troubleshooting:
