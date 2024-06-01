@@ -4,7 +4,7 @@ extended to create templates for react apps as well
 (with IIFE and dark mode to speed things up)
 
 ## HOWTO USE - Standard setup for **jsApp**:
->This repository automates creating a basic frontend web project structure using a batch script (jsApp.bat). It generates a template and opens the main files in VS Code.
+>This version automates creating a basic frontend web project structure using a batch script (jsApp.bat). It generates a template and opens the main files in VS Code.
 ### 1. Make batch folder in C:\Users%AppData%\Code\User, and add the jsApp.bat there
 ### 2. Use New-Item cmdlet to create a symbolic link to the script in the elevated command prompt:
 ```
@@ -16,7 +16,7 @@ mklink jsApp.bat "C:\Users\%AppData%\Roaming\Code\User\batch\jsApp.bat"
  - the files should be created and opened including all templates 😉
 
 ## HOWTO USE - Standard setup for **reactApp**:
->This repository automates creating a basic React project structure using a batch script (reactAppC.bat). It copies your preferred template folder and attempts to open the main file in VS Code.
+>This version automates creating a basic React project structure using a batch script (reactAppC.bat). It copies your preferred template folder and attempts to open the main file in VS Code.
 ### 1. Make batch folder in C:\Users%AppData%\Code\User, and add the reactApp.bat there
 ### 2. Copy the `TemplateFolder` folder in C:\Users%AppData%\Code\User
 ### 3. Use New-Item cmdlet to create a symbolic link to the script in the elevated command prompt:
