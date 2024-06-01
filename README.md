@@ -1,4 +1,4 @@
-# Batch-automation---HTML-CSS-JS
+# Batch automation for web project setups
 a little batch script for making templates for the HTML + CSS + JS setup,
 extended to create templates for react apps as well
 (with IIFE and dark mode to speed things up)
